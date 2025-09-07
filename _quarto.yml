@@ -1,0 +1,29 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "MSc ODL Dissertation Lab Book 2025-26"
+  author: "Dr. Steven McNair"
+  date: "09/07/2025"
+  chapters:
+    - index.qmd
+    - S1W1_Welcome.qmd
+    - S1W2_LitRQ.qmd
+    - S1W3_DesignProp.qmd
+    - S1W4_IntSched.qmd
+    - S1W5_EthicsP1.qmd
+    - S1W6_EthicsP2.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand 
+
+editor: visual
+
